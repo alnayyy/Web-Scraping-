@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Web Sahabi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Srisakdi&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css"
+    />
+    <script
+      type="text/javascript"
+      charset="utf8"
+      src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"
+    ></script>
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">
+                <img src="img/logo.jpeg" class="image">
+                <h4><a href="#home">Satryo Haryo Bimo</a></h4>
+            </div>
+            <ul>
+                <li><a href="#home">Profil Diri</a></li>
+                <li><a href="#skills">Kemampuan</a></li>
+                <li><a href="#wish">Harapan</a></li>
+                <li><a href="#location">Lokasi</a></li>
+                <li><a href="#scrapping-page">Web Scrapping</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>   
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="home">
+            <div id="profil">
+                <figure class="box">
+                    <img src="img/profil.JPG" class="image">
+                    <figcaption>Satryo Haryo Bimo</figcaption>
+                </figure>
+                <div id="deskripsi">
+                    <article id="tentangSaya">
+                        <h2>Tentang Saya</h2>
+                        <p>Halo! Perkenalkan nama saya Satryo Haryo Bimo, kalian dapat memanggil saya Bimo. Saya merupakan seorang Mahasiswa Teknik Informatika di Politeknik Negeri Bandung.</p>
+                        <iframe src="https://www.youtube.com/embed/AMlbztqYCkY?si=qwnOgsmNw_0v2gLR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+                    </article>
+                    <article id="profilDiri">
+                        <h2>Profil Diri</h2>
+                        <ul>
+                            <li><b>Nama:</b> Satryo Haryo Bimo</li>
+                            <li><b>NIM:</b> 231524062</li>
+                            <li><b>Kelompok:</b> B3</li>
+                            <li><b>Tempat/Tanggal Lahir:</b> Bekasi, 18 Februari 2005</li>
+                            <li><b>Jenis Kelamin:</b> Laki-Laki</li>
+                            <li><b>Domisili:</b> Kota Bandung</li>
+                        </ul>
+                        <h2>Moto Hidup</h2>
+                        <p>"The only easy day was yesterday."</p>
+                    </article>
+                </div>
+            </div>
+            <div id="personal">
+                <article id="hobi">
+                    <h2>Hobi</h2>
+                    <div id="galeri">
+                        <img src="img/camp.jpeg" title="camping" alt="camping">
+                        <img src="img/read.jpeg" title="reading" alt="reading">
+                        <img src="img/game.jpeg" title="gaming" alt="gaming">
+                    </div>
+                </article>
+                <article id="sosmed">
+                    <h2>Sosial Media</h2>
+                    <div id="media">
+                        <a href="https://github.com/rioBMO"><img src="img/github.jpeg" title="GitHub"></a>
+                        <a href="https://www.instagram.com/ryobmo_/?hl=id"><img src="img/instagram.jpeg" title="Instagram"></a>
+                        <a href="https://www.linkedin.com/in/satryoharyo/"><img src="img/linkedin.jpeg " title="Linkedin"></a>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="skills">
+            <h2>Kemampuan Teknis</h2>
+            <article id="kemampuan">
+                <div class="teknis">
+                    <img src="img/c.jpeg" alt="c" />
+                    <div class="text">
+                      <h4>Pemrograman C</h4>
+                      <p>
+                        Saya memiliki kemampuan dasar dalam pemrograman menggunakan Bahasa C
+                      </p>
+                    </div>
+                  </div>
+                  <div class="teknis">
+                    <img src="img/java.jpeg" alt="java" />
+                    <div class="text">
+                      <h4>Pemrograman Java</h4>
+                      <p>Saya sedang mempelajari Bahasa Java</p>
+                    </div>
+                  </div>
+                  <div class="teknis">
+                    <img src="img/php.jpeg" alt="laravel" />
+                    <div class="text">
+                      <h4>API CI4</h4>
+                      <p>Saya pernah membuat back-end website menggunakan framework CodeIgniter</p>
+                    </div>
+                  </div>
+                  <div class="teknis">
+                    <img src="img/office.jpeg" alt="" />
+                    <div class="text">
+                      <h4>Ms Office</h4>
+                      <p>
+                        Saya memiliki kemampuan dasar dalam menggunakan tools Ms
+                        Office
+                      </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="container">
+        <div id="wish">
+            <article id="lesson">
+                <h2>Lesson Learned</h2>
+                <p>Melalui tugas ini, saya mengalami banyak pembelajaran baru, termasuk bagaimana cara membuat repository menggunakan command line, melakukan proses forking pada repository, serta menguasai penggunaan perintah git commit dan git push. Selain itu, melalui tugas membuat website ini, saya telah meningkatkan kemampuan dalam merancang tampilan front-end sebuah website. Proses ini memberikan saya pemahaman yang lebih mendalam tentang konsep-konsep dasar dalam pengembangan perangkat lunak dan desain web, serta memperkuat keterampilan teknis saya dalam penggunaan alat-alat pengembangan perangkat lunak seperti Git dan pemrograman front-end.</p>
+            </article>
+            <article id="harapan">
+                <h2>Harapan Setelah Lulus dari JTK</h2>
+                <p>Melalui penyelesaian tugas-tugas yang seringkali menantang dan memunculkan tantangan baru, saya merasa terpacu untuk menjadi lebih rajin, disiplin, dan terampil dalam mengatur waktu. Saya belajar bekerja dengan cerdas dan keras agar bisa menyesuaikan diri dengan cepat di lingkungan kerja di masa depan. Ketika saya lulus nanti, harapan saya adalah memiliki keterampilan teknis yang kuat serta kemampuan interpersonal yang baik, yang akan membantu saya berhasil dan berkembang di dunia kerja.</p>
+            </article>
+        </div>
+        
+    </div>
+    <div class="container" id="scrapping-page">
+        <div id="scrapping-title-container">
+            <h2 class="page-title" id="scrapping-title">Project 1: Web Scrapping</h2>
+        </div>
+        <div>
+
+        </div>
+        <table id="scrapping-table"  class="border">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Judul</th>
+                    <th>Kategori</th>
+                    <th>Waktu Publish</th>
+                    <th>Waktu Scrapping</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div id="hasil_json"></div>
+        <script type="text/javascript">
+            $(function(){
+                $.getJSON('https://raw.githubusercontent.com/rioBMO/rioBMO.github.io/alnay/manga/manga/spiders/hasil.json', function(obj) {
+                    var str = "<table border=1>";
+                    str += "<tr><td>Rank</td><td>Title</td><td>Image</td><td>Information</td><td>Synopsis</td><td>Popularity</td><td>Serialization</td><td>author</td></tr>";
+        
+                    $.each(obj, function(n, data) {
+                            str += "<tr><td>"+(n+1)+"</td>";
+                                str += "<tr><td>"+data.rank+"</td>";
+                                str += "<td>"+data.title+"</td>";
+                                str += "<td><img src='" + data.image + "' alt='" + data.title + "'></td>";                                   
+                                str += "<td>"+data.image+"</td>";
+                                str += "<td>"+data.information.join("<br>")+"</td>";
+                                str += "<td>"+data.synopsis+"</td>";
+                                str += "<td>"+data.popularity+"</td>";
+                                str += "<td>"+data.serialization+"</td>";
+                                str += "<td>"+data.author.join(", ")+"</td></tr>";
+                    });
+        
+                    str += "</table>";
+        
+                    $('#hasil_json').html(str);
+                });
+            }); 
+        </script>
+    </div>
+    <div class="container" id="location">
+        <h1 class="title">Lokasi Saya</h1>
+        <div class="map">
+
+            <iframe
+              id="maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.54299884002!2d107.57171773382412!3d-6.87433395101501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e420abc30acf%3A0x10569255865460a5!2sPoliteknik%20Negeri%20Bandung!5e0!3m2!1sen!2sid!4v1709046122444!5m2!1sen!2sid"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </div>
+    </div>
+    </main>
+    <footer class="box">
+        Copy Rights &copy; 2024 Satryo. All Rights Reserved.
+    </footer>
+    </div>
+</div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
